@@ -1,4 +1,13 @@
+# SDL_FontCache without varargs
+
+This fork modifies the very useful “SDL_FontCache” library, but removes the variable 
+arguments from many functions as these cause problems when used with % characters 
+and in my opinion string formatting should not be part of this library.
+
+## Original code
+
 # SDL_FontCache
+
 A generic font caching C library with loading and rendering support for SDL.
 
 SDL_FontCache loads, caches, and renders TrueType fonts using SDL_ttf.  
