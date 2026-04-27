@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 project(SDL_FontCache VERSION 0.10.0 LANGUAGES C)
 
 find_path(sdl2_INCLUDE_DIR SDL.h)
