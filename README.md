@@ -21,7 +21,9 @@ FC_LoadFont(font, renderer, "fonts/FreeSans.ttf", 20, FC_MakeColor(0,0,0,255), T
 
 ...
 
-FC_Draw(font, renderer, 0, 0, "This is %s.\n It works.", "example text"); 
+/* old code FC_Draw(font, renderer, 0, 0, "This is %s.\n It works.", "example text"); */
+
+FC_Draw(font, renderer, 0, 0, "This is example text.\n It works."); 
  
 ...
 
